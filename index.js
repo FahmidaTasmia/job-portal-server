@@ -30,7 +30,20 @@ async function run (){
             res.send(result);
         })
 
-       
+        app.get('/allJob', async(req,res)=>{
+            const query={};
+            const cursor = jobCollections.find(query);
+            const result = await cursor.toArray();
+            res.send(result)
+        });
+
+        app.get('/allJob/:id',async(req,res)=>{
+            const id = req.params.id;
+            const query = {_id:new ObjectId(id)};
+            const result = await jobCollections.findOne(query);
+            res.send(result);
+
+        });
 
        
     }
