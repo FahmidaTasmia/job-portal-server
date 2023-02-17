@@ -1,0 +1,156 @@
+[
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/2504/2504903.png",
+        "CName":"Facebook",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Location":"Dhaka",
+        "Title" : "Marketing Manager",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/300/300221.png",
+        "CName":"Google INC",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Location":"Dhaka",
+        "Title" : "Product Designer",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5977/5977574.png",
+        "CName":"AirBnb",
+        "Location":"Dhaka",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Title" : "UI/UX Designer",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5968/5968919.png",
+        "CName":"Shopify",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Location":"Dhaka",
+        "Title" : "iOS Developer",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5969/5969323.png",
+        "CName":"Ubar",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Location":"Dhaka",
+        "Title" : "UI/UX Designer",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/314/314711.png",
+        "CName":"oculus",
+        "categoryId":"63ef0cb89163b92189ff2746",
+        "category":"Fresher Jobs",
+        "Location":"Dhaka",
+        "Title" : "Software Engineer",
+        "Position":"Frontend Developer",
+        "salary":"500-999"
+    },
+
+    {
+        "Cname":"TigerIT Bangladesh LTD.",
+        "categoryId":"63ef0cb89163b92189ff2748",
+        "category":"Top IT Companies",
+        "description":"Tiger it has 10 years of experience working in software development. It is one of the best software companies around Bangladesh to create the Automated Fingerprint Identification System (AFIS). In 2008, for the general election of Bangladesh, Tiger it build a complete software of the national id and voter registration project. There are 20,000 personnel, 500id management servers made by Tiger it."
+    },
+    {
+        "Cname":"Datasoft Systems BD ltd",
+        "categoryId":"63ef0cb89163b92189ff2748",
+        "category":"Top IT Companies",
+        "description":"Data Soft is well known as the first CMMI Level 5 software development company in Bangladesh. In both Corporate and public sectors, Data soft delivered innovative and cost effective technical services for the customers. In design and create projects, It has contributed significantly to the digitalization of Bangladesh."
+    },
+
+
+     {
+        "Cname":"Magnito Digital Limited",
+        "categoryId":"63ef0cb89163b92189ff2748",
+        "category":"Top IT Companies",
+        "description":"Magnito Digital is the largest digital agency of Bangladesh consisting of 70+ people. The magneto digital have deal with the largest clients of Bangladesh and solve problem by combining and creative strategies with data and technology. Magnito Digital becomes the ‘Campaign Asia-Pacific’ in the ‘Rest of South Asia’ category.  They believe that, they will drive the sustainable growth of technology & innovation."
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5968/5968705.png",
+        "CName":"Figma",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Location":"Dhaka",
+        "Title" : "Marketing Manager",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/2504/2504942.png",
+        "CName":"Tiktok INC",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Location":"Dhaka",
+        "Title" : "Product Designer",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5977/5977574.png",
+        "CName":"AirBnb",
+        "Location":"Dhaka",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Title" : "UI/UX Designer",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/5968/5968919.png",
+        "CName":"Shopify",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Location":"Dhaka",
+        "Title" : "iOS Developer",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    },
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/1313/1313689.png",
+        "CName":"Periscope",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Location":"Dhaka",
+        "Title" : "UI/UX Designer",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    },
+
+    {
+        "Logo":"https://cdn-icons-png.flaticon.com/128/314/314711.png",
+        "CName":"oculus",
+        "categoryId":"63ef0cb89163b92189ff2747",
+        "category":"Experienced Jobs",
+        "Location":"Dhaka",
+        "Title" : "Software Engineer",
+        "Position":"Senior Frontend Developer",
+        "salary":"1500-4999"
+    }
+
+
+
+
+]
