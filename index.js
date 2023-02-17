@@ -23,7 +23,14 @@ async function run (){
             res.send(result)
         });
 
-        
+        app.get('/category/:id', async(req,res)=>{
+            const id =req.params.id;
+            const query ={categoryId:(id)}
+            const result= await jobCollections.find(query).toArray();
+            res.send(result);
+        })
+
+       
 
        
     }
