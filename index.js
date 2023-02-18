@@ -15,6 +15,7 @@ async function run (){
     try{
         const categoryCollections = client.db('jobPortal').collection('categoryCollection');
         const jobCollections = client.db('jobPortal').collection('jobCollection');
+        const companyCollections = client.db('jobPortal').collection('companyCollection');
 
         app.get('/category', async(req,res)=>{
             const query={};
@@ -24,10 +25,10 @@ async function run (){
         });
 
         app.get('/category/:id', async(req,res)=>{
-            const id =req.params.id;
-            const query ={categoryId:(id)}
-            const result= await jobCollections.find(query).toArray();
-            res.send(result);
+            const id = req.params.id;
+            const query ={_id:ObjectId(id)};
+            const product = await jobCollections.findOne(query);
+            res.send(product);
         })
 
         app.get('/allJob', async(req,res)=>{
@@ -39,11 +40,19 @@ async function run (){
 
         app.get('/allJob/:id',async(req,res)=>{
             const id = req.params.id;
-            const query = {_id:new ObjectId(id)};
-            const result = await jobCollections.findOne(query);
+            const query ={categoryId:(id)}
+            const result= await jobCollections.find(query).toArray();
             res.send(result);
 
         });
+
+        app.get('/company', async(req,res)=>{
+            const query={};
+            const cursor = companyCollections.find(query);
+            const result = await cursor.toArray();
+            res.send(result)
+        });
+
 
        
     }
